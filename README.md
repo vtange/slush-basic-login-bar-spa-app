@@ -1,4 +1,6 @@
-# Slush Basic-login-bar-spa-app [![Build Status](https://secure.travis-ci.org/vtange/slush-basic-login-bar-spa-app.png?branch=master)](https://travis-ci.org/vtange/slush-basic-login-bar-spa-app) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-basic-login-bar-spa-app.png)](http://badges.enytc.com/for/npm/slush-basic-login-bar-spa-app)
+# Slush Basic-login-bar-spa-app 
+
+[![Build Status](https://secure.travis-ci.org/vtange/slush-basic-login-bar-spa-app.png?branch=master)](https://travis-ci.org/vtange/slush-basic-login-bar-spa-app) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-basic-login-bar-spa-app.png)](http://badges.enytc.com/for/npm/slush-basic-login-bar-spa-app)
 
 > Make an Express app that uses basic-login-bar-spa
 
