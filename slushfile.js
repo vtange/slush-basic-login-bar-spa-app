@@ -67,7 +67,7 @@ gulp.task('default', function (done) {
                 return done();
             }
             answers.appNameSlug = _.slugify(answers.appName);
-            answers.appNameCamel = _.camelCase(answers.appName);
+            answers.appNameCamel = answers.appName.toCamelCase();
             gulp.src(__dirname + '/templates/**')
                 .pipe(template(answers))
                 .pipe(rename(function (file) {
@@ -83,3 +83,10 @@ gulp.task('default', function (done) {
                 });
         });
 });
+
+String.prototype.toCamelCase = function() {
+    return this.replace(/^([A-Z])|\s(\w)/g, function(match, p1, p2, offset) {
+        if (p2) return p2.toUpperCase();
+        return p1.toLowerCase();
+    });
+};
