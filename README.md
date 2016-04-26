@@ -18,13 +18,13 @@ $ npm install -g slush-ejs-fastlog
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-ejs-fastlog
+$ mkdir New-Folder
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-ejs-fastlog && slush ejs-fastlog
+$ cd New-Folder && slush ejs-fastlog
 ```
 
 ## Getting To Know Slush
