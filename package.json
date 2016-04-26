@@ -1,18 +1,18 @@
 {
-    "name": "slush-basic-login-bar-spa-app",
-    "description": "Make an Express app that uses basic-login-bar-spa",
+    "name": "slush-ejs-fastlog",
+    "description": "Make an Express app that uses ejs-header-fastlog",
     "version": "1.0.0",
-    "homepage": "https://github.com/vtange/slush-basic-login-bar-spa-app",
+    "homepage": "https://github.com/vtange/slush-ejs-fastlog",
     "author": {
         "name": "Victor Tang",
         "email": "victortang1992@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/vtange/slush-basic-login-bar-spa-app.git"
+        "url": "git://github.com/vtange/slush-ejs-fastlog.git"
     },
     "bugs": {
-        "url": "https://github.com/vtange/slush-basic-login-bar-spa-app/issues"
+        "url": "https://github.com/vtange/slush-ejs-fastlog/issues"
     },
     "license": "MIT",
     "main": "slushfile.js",

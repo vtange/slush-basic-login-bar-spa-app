@@ -1,6 +1,6 @@
 /*
- * slush-basic-login-bar-spa-app
- * https://github.com/vtange/slush-basic-login-bar-spa-app
+ * slush-ejs-fastlog
+ * https://github.com/vtange/slush-ejs-fastlog
  *
  * Copyright (c) 2016, Victor Tang
  * Licensed under the MIT license.

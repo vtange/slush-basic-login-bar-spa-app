@@ -1,16 +1,16 @@
-# slush Basic-login-bar-spa-app 
+# slush ejs-fastlog 
 
-[![Build Status](https://secure.travis-ci.org/vtange/slush-basic-login-bar-spa-app.png?branch=master)](https://travis-ci.org/vtange/slush-basic-login-bar-spa-app) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-basic-login-bar-spa-app.png)](http://badges.enytc.com/for/npm/slush-basic-login-bar-spa-app)
+[![Build Status](https://secure.travis-ci.org/vtange/slush-ejs-fastlog.png?branch=master)](https://travis-ci.org/vtange/slush-ejs-fastlog) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-ejs-fastlog.png)](http://badges.enytc.com/for/npm/slush-ejs-fastlog)
 
-> Make an Express app that uses basic-login-bar-spa
+> Make an Express app that uses ejs-header-fastlog
 
 
 ## Getting Started
 
-Install `slush-basic-login-bar-spa-app` globally:
+Install `slush-ejs-fastlog` globally:
 
 ```bash
-$ npm install -g slush-basic-login-bar-spa-app
+$ npm install -g slush-ejs-fastlog
 ```
 
 ### Usage
@@ -18,13 +18,13 @@ $ npm install -g slush-basic-login-bar-spa-app
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-basic-login-bar-spa-app
+$ mkdir my-slush-ejs-fastlog
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-basic-login-bar-spa-app && slush basic-login-bar-spa-app
+$ cd my-slush-ejs-fastlog && slush ejs-fastlog
 ```
 
 ## Getting To Know Slush
@@ -37,10 +37,10 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/vtange/slush-basic-login-bar-spa-app/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/vtange/slush-ejs-fastlog/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/vtange/slush-basic-login-bar-spa-app/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/vtange/slush-ejs-fastlog/issues).
 
 ## License 
 
