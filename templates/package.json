@@ -1,6 +1,6 @@
 {
-  "name": "<%= appNameSlug %>",
-  "title": "<%= appName %>",
+  "name": "<@= appNameSlug @>",
+  "title": "<@= appName @>",
   "version": "1.0.0",
   "description": "New App Goodness",
   "scripts": {
