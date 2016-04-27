@@ -1,7 +1,7 @@
 {
   "name": "slush-ejs-fastlog",
   "description": "Make an Express app that uses ejs-header-fastlog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/vtange/slush-ejs-fastlog",
   "author": {
     "name": "Victor Tang",
