@@ -10,8 +10,8 @@
 							<div class="btn-toolbar">
 								<% if (!user) { %>
 								<div id="login-buttons" data-ng-if="!(user)">
-									<div data-ng-click="toggleLogin()" class="btn btn-default"><span class="fa fa-user"></span> Local Login</div>
-									<a href="/users/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+									<div data-ng-click="toggleLogin()" class="btn btn-default">Login</div>
+									<a href="/users/signup" class="btn btn-default">Signup</a>
 									<div style="position:absolute; background-color:#f8f8f8; border:1px solid #e7e7e7; padding:10px; border-radius:10px;z-index:5" data-ng-if="showLogin">
 										<form data-ng-submit="login()">
 											<p style="background-color:salmon;color:white;padding-left:5px;border-radius:3px;"data-ng-if="message">{{message}}</p>
@@ -25,7 +25,7 @@
 										</form>
 									</div>
 								</div>
-								<a href="/users/profile" class="btn btn-default" data-ng-if="user"><span class="fa fa-user" data-ng-if="!(user.avatar)"></span><img data-ng-if="user.avatar" style="max-height:30px;"  onError="this.onerror=null; this.src='../images/novatar.png'" data-ng-src="{{user.avatar}}"> {{user.username}}</a>
+								<a href="/users/profile" class="btn btn-default" data-ng-if="user"><img src="../images/novatar.png" data-ng-if="!(user.avatar)"/><img data-ng-if="user.avatar" style="max-height:30px;"  onError="this.onerror=null; this.src='../images/novatar.png'" data-ng-src="{{user.avatar}}"> {{user.username}}</a>
 								<% } else {%>
 								<a href="/users/profile" class="btn btn-default"><span data-ng-init="package = <%= packagedUser %>;autologUser(package)"></span>
 										<img style="max-height:30px;" src="<%= user.local.avatarURL %>" onError="this.onerror=null; this.src='../images/novatar.png'"/>
